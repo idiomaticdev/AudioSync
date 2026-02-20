@@ -15,10 +15,14 @@ Windows maintains separate "Default" and "Default Communications" audio devices.
 - **Single instance** — prevents duplicate processes
 - **Log rotation** — keeps logs small automatically
 
+## Download
+
+Grab the latest single-file exe from the [Releases](https://github.com/GoldenD/AudioSync/releases) page — no installation or .NET runtime required.
+
 ## Requirements
 
 - Windows 10/11
-- .NET 8.0 Runtime
+- .NET 8.0 SDK (for building from source only)
 
 ## Build
 
@@ -26,19 +30,13 @@ Windows maintains separate "Default" and "Default Communications" audio devices.
 dotnet build -c Release
 ```
 
-## Publish (self-contained)
+## Publish (self-contained single file)
 
 ```bash
-dotnet publish -c Release -r win-x64 --self-contained
+dotnet publish -c Release -r win-x64 --self-contained -p:PublishTrimmed=true -p:PublishSingleFile=true
 ```
 
-### Trimmed (smaller output)
-
-```bash
-dotnet publish -c Release -r win-x64 --self-contained -p:PublishTrimmed=true
-```
-
-Reduces the output from ~71 MB to ~18 MB.
+Produces a single ~12 MB exe with no dependencies.
 
 ## License
 

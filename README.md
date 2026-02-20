@@ -19,6 +19,8 @@ Windows maintains separate "Default" and "Default Communications" audio devices.
 
 Grab the latest single-file exe from the [Releases](https://github.com/GoldenD/AudioSync/releases) page — no installation or .NET runtime required.
 
+> **Windows SmartScreen warning:** Since the exe is not code-signed, Windows may show a "Windows protected your PC" popup. Click **More info** → **Run anyway**. Alternatively, right-click the downloaded file → **Properties** → check **Unblock** → **OK** before running.
+
 ## Requirements
 
 - Windows 10/11

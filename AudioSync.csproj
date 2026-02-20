@@ -7,6 +7,9 @@
     <Version>1.0.0</Version>
     <ApplicationIcon>audiosyncicon.ico</ApplicationIcon>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <Company>AudioSync</Company>
+    <Product>AudioSync</Product>
+    <Description>Syncs Windows default and communication audio devices</Description>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="8.0.0" />

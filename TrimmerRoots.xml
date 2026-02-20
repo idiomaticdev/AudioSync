@@ -1,0 +1,17 @@
+<linker>
+  <assembly fullname="AudioSync">
+    <type fullname="AudioSync.IMMDeviceEnumerator" preserve="all" />
+    <type fullname="AudioSync.IMMDevice" preserve="all" />
+    <type fullname="AudioSync.IMMDeviceCollection" preserve="all" />
+    <type fullname="AudioSync.IPropertyStore" preserve="all" />
+    <type fullname="AudioSync.IPolicyConfig" preserve="all" />
+    <type fullname="AudioSync.IMMNotificationClient" preserve="all" />
+    <type fullname="AudioSync.MMDeviceEnumeratorCom" preserve="all" />
+    <type fullname="AudioSync.PolicyConfigCom" preserve="all" />
+    <type fullname="AudioSync.NotificationClient" preserve="all" />
+    <type fullname="AudioSync.PROPERTYKEY" preserve="all" />
+    <type fullname="AudioSync.PropVariant" preserve="all" />
+    <type fullname="AudioSync.EDataFlow" preserve="all" />
+    <type fullname="AudioSync.ERole" preserve="all" />
+  </assembly>
+</linker>

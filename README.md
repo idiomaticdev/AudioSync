@@ -32,6 +32,14 @@ dotnet build -c Release
 dotnet publish -c Release -r win-x64 --self-contained
 ```
 
+### Trimmed (smaller output)
+
+```bash
+dotnet publish -c Release -r win-x64 --self-contained -p:PublishTrimmed=true
+```
+
+Reduces the output from ~71 MB to ~18 MB.
+
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
